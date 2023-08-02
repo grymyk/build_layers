@@ -1,7 +1,7 @@
 'use strict';
 
-import '@/styles/index.css';
-import data from '@/js/mapbox/data/index.js';
+import './style.css';
+import data from './data/';
 
 //console.log('data', data);
 
@@ -81,4 +81,3 @@ map.on('load', () =>    {
         }
     });
 });
-
